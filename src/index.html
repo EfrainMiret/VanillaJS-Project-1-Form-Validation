@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <!-- Link stylesheet -->
     <link rel="stylesheet" href="./main.scss" />
     <!-- Link script -->
@@ -21,21 +29,21 @@
           <label for="username">Username</label>
           <input type="text" id="username" placeholder="Enter username" />
           <!-- This will be the error message that appears under the input -->
-          <small class="hidden">Error message</small>
+          <small class="hidden error-message">Error message</small>
         </div>
 
         <div class="form-control">
           <label for="email">Email</label>
           <input type="text" id="email" placeholder="Enter email" />
           <!-- This will be the error message that appears under the input -->
-          <small class="hidden">Error message</small>
+          <small class="hidden error-message">Error message</small>
         </div>
 
         <div class="form-control">
           <label for="password">Password</label>
           <input type="password" id="password" placeholder="Enter password" />
           <!-- This will be the error message that appears under the input -->
-          <small class="hidden">Error message</small>
+          <small class="hidden error-message">Error message</small>
         </div>
 
         <div class="form-control">
@@ -46,7 +54,7 @@
             placeholder="Confirm your password"
           />
           <!-- This will be the error message that appears under the input -->
-          <small class="hidden">Error message</small>
+          <small class="hidden error-message">Error message</small>
         </div>
 
         <button>Submit</button>
